@@ -1,0 +1,26 @@
+/* Import normalize.css для сброса дефолтных стилей */
+@import 'normalize.css';
+
+/* Import fonts from @fontsource */
+@import '@fontsource/ubuntu/300.css';
+@import '@fontsource/ubuntu/400.css';
+@import '@fontsource/ubuntu/500.css';
+@import '@fontsource/ubuntu/700.css';
+
+/* Tailwind CSS v4 imports */
+@import "tailwindcss";
+
+/* Custom base styles */
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Тільки SVG icon colors - їх неможливо замінити Tailwind класами */
+.gulp-icon { fill: #da4648; }
+.jquery-icon { fill: #21609b; }
+.git-icon { fill: #d12b38; }
+.html-icon { fill: #e34c26; }
+.css-icon { fill: #1572b6; }
+.less-icon { fill: #1d365d; }
+.js-icon { fill: #f7df1e; }
+.vue-icon { fill: #4fc08d; }
