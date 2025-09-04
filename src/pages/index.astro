@@ -19,11 +19,11 @@ import '../styles/global.css';
 <main class="bg-gray-50">
     <section class="py-8">
         <div class="max-w-6xl mx-auto px-4">
-            <div class="grid grid-cols-1 md:grid-cols-[200px_1fr] gap-4 md:gap-6">
-                <figure class="">
+            <div class="grid grid-cols-1 gap-4 sm:grid-cols-[150px_1fr]">
+                <figure class="sm:row-span-2">
                     <img src="/images/avatar.webp" alt="фото" width="600" height="827" class="max-w-full h-auto rounded-lg shadow-lg">
                 </figure>
-                <div class="text-center md:text-left">
+                <div class="text-center ms:text-left row-start-1 col-start-2">
                     <h1 class="text-4xl font-bold mb-2">Хуторний Вадим</h1>
                     <strong class="text-xl text-gray-700">WordPress розробник</strong>
 
@@ -34,14 +34,13 @@ import '../styles/global.css';
                             vadim-khutornoi-a51799143
                         </a>
                     </div>
-
-                    <div class="mt-6">
-                        <h2 class="text-2xl font-semibold mb-4 border-b border-gray-300 pb-2">Особисті якості:</h2>
-                        <p class="mb-4 text-gray-700 leading-relaxed">
-                            Відповідальний, комунікабельний, щось знаю, вмію працювати в команді.
-                        </p>
-                        <p class="text-gray-700">Хобі - велоспорт.</p>
-                    </div>
+                </div>
+                <div class="mt-6 col-span-2 sm:row-start-2 sm:col-start-2">
+                    <h2 class="text-2xl font-semibold mb-4 border-b border-gray-300 pb-2">Особисті якості:</h2>
+                    <p class="mb-4 text-gray-700 leading-relaxed">
+                        Відповідальний, комунікабельний, щось знаю, вмію працювати в команді.
+                    </p>
+                    <p class="text-gray-700">Хобі - велоспорт.</p>
                 </div>
             </div>
         </div>
@@ -53,6 +52,13 @@ import '../styles/global.css';
                 <ResumeContent />
                 <ResumeAside />
             </div>
+            <div class="mb-8">
+                <h2 class="text-2xl font-semibold mb-4 border-b border-gray-300 pb-2">Очікування:</h2>
+                <p class="text-gray-700 leading-relaxed">
+                    Професійний, дружній, колектив у якого є чому навчитися. Цікаві проекти.
+                </p>
+            </div>
+            <p class="text-gray-700"><b class="font-semibold">Знання англійської</b>: На рівні читання документації.</p>
         </div>
     </section>
 </main>
